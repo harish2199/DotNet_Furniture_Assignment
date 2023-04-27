@@ -10,13 +10,11 @@ namespace Day7_Assignment
     {
         public int NoOfLegs { get; set; }
 
-        public int Accept()
+        public void Accept()
         {
             base.Accept();
             Console.Write("Enter No. of Legs: ");
             NoOfLegs = int.Parse(Console.ReadLine());
-
-            return 1;
         }
 
         public void Display()

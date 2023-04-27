@@ -69,7 +69,7 @@ namespace Day7_Assignment
             {
                 Console.WriteLine("1:Accept Stock Details");
                 Console.WriteLine("2:Display Total Stock Value");
-                Console.WriteLine("3:Display Total Stock Value");
+                Console.WriteLine("3: Show all Stock Details");
                 Console.WriteLine("Enter your choice:");
                 int choice = int.Parse(Console.ReadLine()); 
 

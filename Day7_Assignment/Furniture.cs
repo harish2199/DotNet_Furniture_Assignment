@@ -14,7 +14,7 @@ namespace Day7_Assignment
         public int Quantity { get; set; }
         public double Price { get; set; }
 
-        public int Accept()
+        public void Accept()
         {
             Console.Write("Enter height: ");
             Height = double.Parse(Console.ReadLine());
@@ -31,7 +31,7 @@ namespace Day7_Assignment
             Console.Write("Enter price: ");
             Price = double.Parse(Console.ReadLine());
 
-            return 1;
+            
         }
 
         public void Display()
