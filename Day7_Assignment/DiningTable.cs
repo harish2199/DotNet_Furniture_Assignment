@@ -19,7 +19,7 @@ namespace Day7_Assignment
             return 1;
         }
 
-        public override void Display()
+        public void Display()
         {
             base.Display();
             Console.WriteLine($"No. of Legs: {NoOfLegs}");

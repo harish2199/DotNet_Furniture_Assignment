@@ -34,7 +34,7 @@ namespace Day7_Assignment
             return 1;
         }
 
-        public virtual void Display()
+        public void Display()
         {
             Console.WriteLine($"Height: {Height}");
             Console.WriteLine($"Width: {Width}");
