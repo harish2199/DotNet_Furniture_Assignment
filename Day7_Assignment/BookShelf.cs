@@ -21,6 +21,7 @@ namespace Day7_Assignment
 
         public void Display()
         {
+            Console.WriteLine("BookShelf Details:");
             base.Display();
             Console.WriteLine($"No. of Shelves: {NoOfShelves}");
         }

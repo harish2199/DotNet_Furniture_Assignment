@@ -19,6 +19,7 @@ namespace Day7_Assignment
 
         public void Display()
         {
+            Console.WriteLine("Dining Table Details:");
             base.Display();
             Console.WriteLine($"No. of Legs: {NoOfLegs}");
         }

@@ -4,6 +4,9 @@ namespace Day7_Assignment
 {
     internal class Program
     {
+        Furniture[] stock = new Furniture[2];
+
+
         static void AcceptStockSetails(Furniture[] stock)
         {
             Console.WriteLine("Please select the type of furniture:");
@@ -63,8 +66,7 @@ namespace Day7_Assignment
         }
         static void Main(string[] args)
         {
-            Furniture[] stock = new Furniture[2];
-
+            
             while (true)
             {
                 Console.WriteLine("1:Accept Stock Details");
