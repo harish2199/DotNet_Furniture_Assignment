@@ -15,8 +15,6 @@ namespace Day7_Assignment
             base.Accept();
             Console.Write("Enter No. of Shelves: ");
             NoOfShelves = int.Parse(Console.ReadLine());
-
-            
         }
 
         public void Display()
